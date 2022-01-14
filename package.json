@@ -1,0 +1,31 @@
+{
+  "name": "motive_lc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "dev": "nodemone index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dilmurod-WebDev/Motive_LC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dilmurod-WebDev/Motive_LC/issues"
+  },
+  "homepage": "https://github.com/Dilmurod-WebDev/Motive_LC#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "sequelize": "^6.13.0"
+  }
+}
