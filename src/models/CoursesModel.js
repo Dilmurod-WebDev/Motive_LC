@@ -13,6 +13,15 @@ module.exports = async (Sequelize, sequelize) =>{
         course_description: {
             type: Sequelize.STRING,
             allowNull: false,
+        },
+        course_price: {
+            type: Sequelize.INTEGER,
+            allowNull: false,
+            defaultValue: 0
+        },
+        course_photo: {
+            type: Sequelize.STRING,
+            allowNull: true
         }
     })
 }
