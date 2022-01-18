@@ -29,6 +29,10 @@ module.exports = async (sequelize, Sequelize) => {
         user_name: {
             type: Sequelize.STRING,
 			allowNull: false,
-        }
+        },
+		user_phone: {
+			type: Sequelize.STRING,
+			allowNull: false,
+		}
     })
 }
