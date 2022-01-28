@@ -22,8 +22,7 @@ module.exports = async (sequelize, Sequelize) => {
 		},
 		user_role: {
 			type: Sequelize.ENUM,
-			values: ["super_admin", "admin", "teacher", "student", "custumer"],
-			defaultValue: "custumer",
+			values: ["super_admin", "admin", "teacher", "student"],
 			allowNull: false,
 		},
         user_name: {
